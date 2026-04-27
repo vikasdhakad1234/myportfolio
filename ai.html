@@ -1,0 +1,206 @@
+```html id="f2147"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Video Generation | PORTFOLIO</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#050505;
+    color:white;
+}
+
+/* Navbar */
+nav{
+    width:100%;
+    padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#0d0d0d;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
+
+.logo{
+    font-size:26px;
+    font-weight:700;
+    color:#ffd700;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    background:#ffd700;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+/* Hero */
+.hero{
+    padding:80px 8% 50px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#ffd700;
+    margin-bottom:15px;
+}
+
+.hero p{
+    color:#bbb;
+    max-width:760px;
+    margin:auto;
+    line-height:1.8;
+    font-size:17px;
+}
+
+/* Cards */
+.section{
+    padding:40px 8% 80px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:#111;
+    border-radius:18px;
+    overflow:hidden;
+    transition:0.4s;
+    border:1px solid rgba(255,255,255,0.05);
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#ffd700;
+    box-shadow:0 20px 35px rgba(255,215,0,0.08);
+}
+
+video{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    background:black;
+}
+
+.content{
+    padding:22px;
+}
+
+.content h3{
+    color:#ffd700;
+    margin-bottom:12px;
+    font-size:22px;
+}
+
+.content p{
+    color:#cfcfcf;
+    line-height:1.7;
+    font-size:15px;
+}
+
+/* Footer */
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    border-top:1px solid rgba(255,255,255,0.05);
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .hero h1{
+        font-size:38px;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">PORTFOLIO</div>
+    <a href="index.html">Back Home</a>
+</nav>
+
+<section class="hero">
+    <h1>AI Video Generation</h1>
+    <p>
+        Next-generation AI powered video creation with cinematic visuals,
+        storytelling, realistic scenes, ads and automated content production.
+    </p>
+</section>
+
+<section class="section">
+
+<div class="grid">
+
+    <div class="card">
+        <video controls>
+            <source src="videos/ai1.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h3>AI Cinematic Scene</h3>
+            <p>
+                Realistic AI generated movie-style visuals with dramatic lighting and emotion.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <video controls>
+            <source src="videos/ai2.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h3>AI Product Commercial</h3>
+            <p>
+                High-converting AI ad video created for premium product promotion.
+            </p>
+        </div>
+    </div>
+
+    <div class="card">
+        <video controls>
+            <source src="videos/ai3.mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h3>AI Storytelling Reel</h3>
+            <p>
+                Emotional short-form AI generated reel optimized for social media growth.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<footer>
+© 2026 PORTFOLIO | AI Video Showcase
+</footer>
+
+</body>
+</html>
+```
